@@ -1,0 +1,38 @@
+﻿
+body {
+    background-color: #e6cfff;
+    font-family: 'Cairo', sans-serif;
+    align-content: center;
+    margin-left: 30px;
+}
+form {
+    margin-left: 30px;
+}
+h1, h3 {
+    margin-left: 30px;
+}
+button {
+    background-color: #fdffcc;
+}
+button:hover {
+    background-color: #ff5476;
+    color:aliceblue;
+}
+.btn {
+    background-color: #fdffcc;
+}
+.btn:hover {
+    background-color: #ff5476;
+    color: aliceblue;
+}
+.field:hover {
+    background-color: #e8e3e8;
+}
+table {
+   
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+th {
+    text-align: left;
+}

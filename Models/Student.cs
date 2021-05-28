@@ -14,6 +14,7 @@ namespace SchoolWebApplication.Models
         [Display(Name = "ПІБ")]
         public string FullName { get; set; }
         [Required(ErrorMessage = "Поле не повинно бути попрожнім")]
+        [Range(2004, 2021, ErrorMessage = "Введено некоректний рік")]
         [Display(Name = "Рік народження")]
         public int Year { get; set; }
         public int GradeId { get; set; }
